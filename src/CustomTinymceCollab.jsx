@@ -201,7 +201,7 @@ const CustomTinyMceCollab = () => {
             await loadTinyMCEScript();
             try {
                 // const res = await axios.get('https://8f89c53c-7e8c-458b-8561-33386c680c73-00-yg7ctkxthwa6.picard.replit.dev/document');
-                const res = await axios.get('wss://f94f27c7-944d-4a02-a95a-ee6af77e5f9f-00-17bll14izkd5r.spock.replit.dev/ws');
+                const res = await axios.get('https://f94f27c7-944d-4a02-a95a-ee6af77e5f9f-00-17bll14izkd5r.spock.replit.dev/document');
                 // const res = await axios.get('http://127.0.0.1:8092/document');
                 const htmlContent = convertJsontoHtml(res.data);
                 initEditor(htmlContent);
@@ -213,7 +213,7 @@ const CustomTinyMceCollab = () => {
 
         fetchAndInit();
         // const ws = new WebSocket('wss://8f89c53c-7e8c-458b-8561-33386c680c73-00-yg7ctkxthwa6.picard.replit.dev/ws');
-        const ws = new WebSocket('wss://8f89c53c-7e8c-458b-8561-33386c680c73-00-yg7ctkxthwa6.picard.replit.dev/ws');
+        const ws = new WebSocket('wss://f94f27c7-944d-4a02-a95a-ee6af77e5f9f-00-17bll14izkd5r.spock.replit.dev/ws');
     
         // const ws = new WebSocket('ws://127.0.0.1:8092/ws');
         // const ws = new WebSocket('wss://your-server-url/ws');
