@@ -318,7 +318,7 @@ const CustomTinyMceCollab = () => {
 
     return (
         <div ref={containerRef} style={{ width: "100%" }}>
-            <h2>Collaborative TinyMCE Editor</h2>
+            <h2>Colllaborative Document Editor</h2>
             <div id={editorId}></div>
         </div>
     );
