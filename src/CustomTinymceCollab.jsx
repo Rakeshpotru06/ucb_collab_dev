@@ -320,9 +320,9 @@ const CustomTinyMceCollab = () => {
 
 
     return (
-        <div ref={containerRef} style={{ width: "100%" }}>
-            <h2>Colllaborative Document Editor</h2>
-            <div id={editorId}></div>
+        <div className='text-area'>
+            <h2 style={{textAlign:"center"}} >AI Verify Document Editor</h2>
+            <textarea id={editorId} ></textarea>
         </div>
     );
 };
